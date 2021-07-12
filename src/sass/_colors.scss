@@ -84,11 +84,11 @@ $dark_sidebar_bg: $theme_color_bg;
 }
 
 @if $trans=='true' and $variant=='dark' {
-  $dark_sidebar_bg:                 transparentize($theme_xcolor_8, 0.05);
+  $dark_sidebar_bg:                 transparentize($theme_color_bg, 0.05);
 }
 
 @if $trans=='false' and $variant=='dark' {
-  $dark_sidebar_bg:                 $theme_xcolor_8;
+  $dark_sidebar_bg:                 $theme_color_bg;
 }
 
 $dark_sidebar_fg:                   $text_color;
