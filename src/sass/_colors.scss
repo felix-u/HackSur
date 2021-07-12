@@ -73,7 +73,7 @@ $header_border:                     if($variant == 'light', mix($theme_color_bg,
 $header_fg:                         if($variant == 'light', $theme_xcolor_8, $theme_color_fg);
 
 // Sidebar colors
-$dark_sidebar_bg: $theme_xcolor_8;
+$dark_sidebar_bg: $theme_color_bg;
 
 @if $trans=='true' and $variant=='light' {
   $dark_sidebar_bg:                 transparentize($theme_color_fg, 0.06);
